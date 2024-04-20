@@ -15,9 +15,8 @@ import javax.swing.SpinnerNumberModel;
  */
 public class GeneratePassword extends javax.swing.JPanel {
 
-    /**
-     * Creates new form GeneratePassword
-     */
+    private javax.swing.JTextField externalTextField;
+    
     public GeneratePassword() {
         initComponents();
         setSize(440, 130);
@@ -27,6 +26,14 @@ public class GeneratePassword extends javax.swing.JPanel {
         length.setMinimum(4);
         length.setValue(8);
         spiLength.setModel(length);
+    }
+
+    public void setExternalTextField(javax.swing.JTextField externalTextField) {
+        this.externalTextField = externalTextField;
+    }
+    
+    public void reset(){
+        lblPassword.setText("");
     }
 
     /**
@@ -48,6 +55,7 @@ public class GeneratePassword extends javax.swing.JPanel {
         jLabel1 = new javax.swing.JLabel();
         chkNumbers = new javax.swing.JCheckBox();
         chkSimbols = new javax.swing.JCheckBox();
+        jLabel3 = new javax.swing.JLabel();
 
         lblPassword.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
 
@@ -72,6 +80,9 @@ public class GeneratePassword extends javax.swing.JPanel {
         chkNumbers.setText("Números");
 
         chkSimbols.setText("Símbolos");
+
+        jLabel3.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel3.setText("Generador de Contraseñas");
 
         javax.swing.GroupLayout panel1Layout = new javax.swing.GroupLayout(panel1);
         panel1.setLayout(panel1Layout);
@@ -102,11 +113,16 @@ public class GeneratePassword extends javax.swing.JPanel {
                                 .addComponent(jLabel2)
                                 .addGap(0, 0, Short.MAX_VALUE)))
                         .addContainerGap())))
+            .addGroup(panel1Layout.createSequentialGroup()
+                .addGap(98, 98, 98)
+                .addComponent(jLabel3)
+                .addGap(0, 0, Short.MAX_VALUE))
         );
         panel1Layout.setVerticalGroup(
             panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(panel1Layout.createSequentialGroup()
-                .addGap(15, 15, 15)
+                .addComponent(jLabel3)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(lblPassword, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(btnStart, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -132,7 +148,8 @@ public class GeneratePassword extends javax.swing.JPanel {
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(panel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
         );
@@ -148,7 +165,13 @@ public class GeneratePassword extends javax.swing.JPanel {
         if (chkNumbers.isSelected()) {
             includeNumbers = true;
         }
-        lblPassword.setText(SecurePasswordGenerator.SecurePasswordGenerator(length, includeSymbols, includeNumbers));
+        
+        String newPassword = SecurePasswordGenerator.SecurePasswordGenerator(length, includeSymbols, includeNumbers);
+        lblPassword.setText(newPassword);
+
+        if (externalTextField != null) {
+            externalTextField.setText(newPassword);
+        }
     }//GEN-LAST:event_btnStartActionPerformed
 
     private void btnCopyActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCopyActionPerformed
@@ -169,6 +192,7 @@ public class GeneratePassword extends javax.swing.JPanel {
     private javax.swing.JCheckBox chkSimbols;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel lblPassword;
     private javax.swing.JPanel panel1;
     private javax.swing.JSpinner spiLength;
