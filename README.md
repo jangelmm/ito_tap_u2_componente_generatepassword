@@ -1,8 +1,21 @@
 # `Generate Password`
 ## Información
+**Tópicos Avanzados de Programación - SCD 1027**
+**Ingeniería en Sistemas Computacionales**
+
+
 **Autores**
 - Martínez Mendoza Jesús Ángel
 - Diego García Jennifer
+
+**Docente:** Martínez Nieto Adelina
+
+**Grupo:** 4SA
+
+**Hora:** 12:00 - 13:00 hrs.
+
+**Periodo:** Ene/Jun 2024
+
 
 **Proyecto**
 - Componente para generar contraseñas
