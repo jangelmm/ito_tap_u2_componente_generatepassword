@@ -3,10 +3,13 @@
 **Autores**
 - Martínez Mendoza Jesús Ángel
 - Diego García Jennifer
+
 **Proyecto**
 - Componente para generar contraseñas
+  
 **Versión:** 2.0
 **Fecha:** Abril, 2024
+
 ## Descripción
 ### Descripción del Componente
 
