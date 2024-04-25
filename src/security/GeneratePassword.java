@@ -16,12 +16,12 @@ import javax.swing.SpinnerNumberModel;
 public class GeneratePassword extends javax.swing.JPanel {
 
     private javax.swing.JTextField externalTextField;
+    private SpinnerNumberModel length = new SpinnerNumberModel();
     
     public GeneratePassword() {
         initComponents();
         setSize(440, 130);
         
-        SpinnerNumberModel length = new SpinnerNumberModel();
         length.setMaximum(32);
         length.setMinimum(4);
         length.setValue(8);
@@ -33,7 +33,16 @@ public class GeneratePassword extends javax.swing.JPanel {
     }
     
     public void reset(){
+        //Reiniciar la contraseña
         lblPassword.setText("");
+        
+        //Reiniciar el Spinner
+        length.setValue(8);
+        spiLength.setModel(length);
+        
+        //Reiniciar los check box
+        chkNumbers.setSelected(false);
+        chkSimbols.setSelected(false);
     }
 
     /**
