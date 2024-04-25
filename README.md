@@ -75,31 +75,27 @@ Clona con el siguiente comando
 ```
 
 Otra opción es descargar `ZIP`.
-![[Pasted image 20240424200545.png]]
+![[imagen1.png]]
 2. Importa el proyecto en tu IDE preferido (NetBeans o VS code).
 3. Asegúrate de que el proyecto se compila sin errores para crear el `.jar` según la versión de tu Java.
 
 ## Uso
 1. Compila tu proyecto para crear el archivo `.jar`
-![[Pasted image 20240424201247.png]]
+![[imagen2.png]]
 Posteriormente presiona `SHIFT + F11`
 2. Agrega el componente a tu paleta de componentes.
 Da click derecho en la paleta y selecciona *Palette Manager* y selecciona *Add From Jar*
 
 Navega hasta la carpeta *dist* del proyecto y selecciona el `.jar`.
-![](adjuntos/Pasted image 20240424201727.png)
-![](adjuntos/Pasted image 20240424201821.png)
-![](adjuntos/Pasted image 20240424201904.png)
-
-![[Pasted image 20240424201727.png]]
-![[Pasted image 20240424201821.png]]
-![[Pasted image 20240424201904.png]]
+![[imagen3.png]]
+![[imagen4.png]]
+![[imagen5.png]]
 
 3. Ya está listo para usar y arrastrar a tus componentes
-![[Pasted image 20240424202008.png]]
+![[imagen6.png]]
 
 4. Prueba ya sea en tu `JFrame` o `JDialog` funciona.
-![[Pasted image 20240424202151.png|300]]
+![[imagen7.png|300]]
 
 >Recuerda que si quieres usar la contraseña en tu sistema principal, se obtiene a través del método 
 
@@ -117,7 +113,7 @@ Si deseas contribuir a este proyecto, por favor sigue los siguientes pasos:
 
 
 ## Autores
-- - Diego García Jennifer - *Estudiante del ITO* - [Contacto]([JennyDiego (github.com)](https://github.com/JennyDiego))
+- Diego García Jennifer - *Estudiante del ITO* - [Contacto]([JennyDiego (github.com)](https://github.com/JennyDiego))
 - Jesús Ángel Martínez Mendoza - *Estudiante del ITO* - [Contacto]([JesusAngelMM (github.com)](https://github.com/JesusAngelMM))
 
 ## Agradecimientos
