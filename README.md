@@ -75,27 +75,28 @@ Clona con el siguiente comando
 ```
 
 Otra opción es descargar `ZIP`.
-![[imagen1.png]]
+![Descargar ZIP](adjuntos/imagen1.png)
 2. Importa el proyecto en tu IDE preferido (NetBeans o VS code).
 3. Asegúrate de que el proyecto se compila sin errores para crear el `.jar` según la versión de tu Java.
 
 ## Uso
 1. Compila tu proyecto para crear el archivo `.jar`
-![[imagen2.png]]
+![Compilar proyecto](adjuntos/imagen2.png)
 Posteriormente presiona `SHIFT + F11`
 2. Agrega el componente a tu paleta de componentes.
 Da click derecho en la paleta y selecciona *Palette Manager* y selecciona *Add From Jar*
 
 Navega hasta la carpeta *dist* del proyecto y selecciona el `.jar`.
-![[imagen3.png]]
-![[imagen4.png]]
-![[imagen5.png]]
+![Agregar desde JAR 1](adjuntos/imagen3.png)
+![Agregar desde JAR 2](adjuntos/imagen4.png)
+![Agregar desde JAR 3](adjuntos/imagen5.png)
 
 3. Ya está listo para usar y arrastrar a tus componentes
-![[imagen6.png]]
+![Componente listo para usar](adjuntos/imagen6.png)
 
 4. Prueba ya sea en tu `JFrame` o `JDialog` funciona.
-![[imagen7.png|300]]
+![Prueba en JFrame o JDialog](adjuntos/imagen7.png)
+
 
 >Recuerda que si quieres usar la contraseña en tu sistema principal, se obtiene a través del método 
 
