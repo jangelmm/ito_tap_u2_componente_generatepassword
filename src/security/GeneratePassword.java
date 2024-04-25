@@ -33,7 +33,7 @@ public class GeneratePassword extends javax.swing.JPanel {
     }
     
     public void reset(){
-        //Reiniciar la contrasena
+        //Reiniciar la contraseña
         lblPassword.setText("");
         
         //Reiniciar el Spinner
