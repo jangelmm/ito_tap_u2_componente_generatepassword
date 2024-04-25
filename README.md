@@ -87,6 +87,10 @@ Posteriormente presiona `SHIFT + F11`
 Da click derecho en la paleta y selecciona *Palette Manager* y selecciona *Add From Jar*
 
 Navega hasta la carpeta *dist* del proyecto y selecciona el `.jar`.
+![imagen 1](Pasted image 20240424201727.png)
+![imagen 2](Pasted image 20240424201821.png)
+![imagen 3](Pasted image 20240424201904.png)
+
 ![[Pasted image 20240424201727.png]]
 ![[Pasted image 20240424201821.png]]
 ![[Pasted image 20240424201904.png]]
