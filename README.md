@@ -92,12 +92,13 @@ Navega hasta la carpeta *dist* del proyecto y selecciona el `.jar`.
 ![Agregar desde JAR 3](adjuntos/imagen5.png)
 
 3. Ya está listo para usar y arrastrar a tus componentes
-![Componente listo para usar](adjuntos/imagen6.png)
+![Ver video](adjuntos/video1.mp4)
 
 4. Prueba ya sea en tu `JFrame` o `JDialog` funciona.
 ![Prueba en JFrame o JDialog](adjuntos/imagen7.png)
 
 Ya puedes generar contraseñas seguras según tus necesidades.
+![Ver video](adjuntos/video2.mp4)
 
 Además puedes copiar y pegar la contraseña generada
 
@@ -110,7 +111,7 @@ generatePassword.setExternalTextField(elemento_recibe);
 ```
 Con esto puedes usar las contraseñas directamente en tu aplicación principal o sistema.
 
-![Usar en el sistema principal](adjuntos/imagen9.png)
+![Ver video](adjuntos/video3.mp4)
 
 Por ejemplo en el programa anterior en el `actionPerformad`del botón se agregó lo siguiente
 
