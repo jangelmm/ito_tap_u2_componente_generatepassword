@@ -121,6 +121,11 @@ generatePassword1.setExternalTextField(txtDContrasena);
 
 Que quiere decir *"lo que generó el componente `generatePassword` copialo en el componente `txtDContrasena`"*.
 
+## Funcionamiento
+¡Descubre cómo funciona este componente visual *Generador de Contraseñas*!
+
+Haz clic para ver el video ahora mismo ---> https://youtu.be/Wa5mAOkL6vs.
+
 ## Contribuir
 Si deseas contribuir a este proyecto, por favor sigue los siguientes pasos:
 
