@@ -81,6 +81,7 @@ Otra opción es descargar `ZIP`.
 
 ## Uso
 1. Compila tu proyecto para crear el archivo `.jar`
+
 ![Compilar proyecto](adjuntos/imagen2.png)
 Posteriormente presiona `SHIFT + F11`
 2. Agrega el componente a tu paleta de componentes.
@@ -92,9 +93,9 @@ Navega hasta la carpeta *dist* del proyecto y selecciona el `.jar`.
 ![Agregar desde JAR 3](adjuntos/imagen5.png)
 
 3. Ya está listo para usar y arrastrar a tus componentes
-s
 
 4. Prueba ya sea en tu `JFrame` o `JDialog` funciona.
+
 ![Prueba en JFrame o JDialog](adjuntos/imagen7.png)
 
 Ya puedes generar contraseñas seguras según tus necesidades.
