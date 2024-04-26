@@ -118,7 +118,7 @@ Por ejemplo en el programa anterior en el `actionPerformad`del botón se agregó
 generatePassword1.setExternalTextField(txtDContrasena);
 ```
 
-Que quiere decir *lo que generó el componente `generatePassword` copialo en el componente `txtDContrasena`*.
+Que quiere decir *"lo que generó el componente `generatePassword` copialo en el componente `txtDContrasena`"*.
 
 ## Contribuir
 Si deseas contribuir a este proyecto, por favor sigue los siguientes pasos:
