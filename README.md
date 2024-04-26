@@ -112,6 +112,14 @@ Con esto puedes usar las contraseñas directamente en tu aplicación principal o
 
 ![Usar en el sistema principal](adjuntos/imagen9.png)
 
+Por ejemplo en el programa anterior en el `actionPerformad`del botón se agregó lo siguiente
+
+```Java
+generatePassword1.setExternalTextField(txtDContrasena);
+```
+
+Que quiere decir *lo que generó el componente `generatePassword` copialo en el componente `txtDContrasena`*.
+
 ## Contribuir
 Si deseas contribuir a este proyecto, por favor sigue los siguientes pasos:
 
