@@ -97,12 +97,20 @@ Navega hasta la carpeta *dist* del proyecto y selecciona el `.jar`.
 4. Prueba ya sea en tu `JFrame` o `JDialog` funciona.
 ![Prueba en JFrame o JDialog](adjuntos/imagen7.png)
 
+Ya puedes generar contraseñas seguras según tus necesidades.
 
->Recuerda que si quieres usar la contraseña en tu sistema principal, se obtiene a través del método 
+Además puedes copiar y pegar la contraseña generada
+
+![Usar el copiado y pegado](adjuntos/imagen8.png)
+
+>Recuerda que si quieres usar la contraseña en tu sistema principal, se obtiene a través del método
 
 ```Java
 generatePassword.setExternalTextField(elemento_recibe);
 ```
+Con esto puedes usar las contraseñas directamente en tu aplicación principal o sistema.
+
+![Usar en el sistema principal](adjuntos/imagen9.png)
 
 ## Contribuir
 Si deseas contribuir a este proyecto, por favor sigue los siguientes pasos:
