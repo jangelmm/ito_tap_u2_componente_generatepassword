@@ -68,57 +68,59 @@ La clase `SecurePasswordGenerator` es responsable de generar contraseñas segura
 Para utilizar este componente en tu proyecto, sigue estos pasos:
 
 1. Obtener el repositorio
-Clona con el siguiente comando
+   Clona con el siguiente comando
 
-```bash
-   git clone https://github.com/JesusAngelMM/ITO_TAP_U2_COMPONENTE_GENERATEPASSWORD.git
-```
+   ```bash
+      git clone https://github.com/JesusAngelMM/ITO_TAP_U2_COMPONENTE_GENERATEPASSWORD.git
+   ```
 
-Otra opción es descargar `ZIP`.
-![Descargar ZIP](adjuntos/imagen1.png)
-2. Importa el proyecto en tu IDE preferido (NetBeans o VS code).
-3. Asegúrate de que el proyecto se compila sin errores para crear el `.jar` según la versión de tu Java.
+   Otra opción es descargar `ZIP`.
+   ![Descargar ZIP](adjuntos/imagen1.png)
+   
+3. Importa el proyecto en tu IDE preferido (NetBeans o VS code).
+
+4. Asegúrate de que el proyecto se compila sin errores para crear el `.jar` según la versión de tu Java.
 
 ## Uso
 1. Compila tu proyecto para crear el archivo `.jar`
 
-![Compilar proyecto](adjuntos/imagen2.png)
-Posteriormente presiona `SHIFT + F11`
-2. Agrega el componente a tu paleta de componentes.
-Da click derecho en la paleta y selecciona *Palette Manager* y selecciona *Add From Jar*
+   ![Compilar proyecto](adjuntos/imagen2.png)
+   Posteriormente presiona `SHIFT + F11`
 
-Navega hasta la carpeta *dist* del proyecto y selecciona el `.jar`.
-![Agregar desde JAR 1](adjuntos/imagen3.png)
-![Agregar desde JAR 2](adjuntos/imagen4.png)
-![Agregar desde JAR 3](adjuntos/imagen5.png)
+2. Agrega el componente a tu paleta de componentes.
+   Da click derecho en la paleta y selecciona *Palette Manager* y selecciona *Add From Jar*
+
+   Navega hasta la carpeta *dist* del proyecto y selecciona el `.jar`.
+   ![Agregar desde JAR 1](adjuntos/imagen3.png)
+   ![Agregar desde JAR 2](adjuntos/imagen4.png)
+   ![Agregar desde JAR 3](adjuntos/imagen5.png)
 
 3. Ya está listo para usar y arrastrar a tus componentes
 
 4. Prueba ya sea en tu `JFrame` o `JDialog` funciona.
 
-![Prueba en JFrame o JDialog](adjuntos/imagen7.png)
+   ![Prueba en JFrame o JDialog](adjuntos/imagen7.png)
 
 Ya puedes generar contraseñas seguras según tus necesidades.
 
-Además puedes copiar y pegar la contraseña generada
+Además puedes copiar y pegar la contraseña generada:
 
-![Usar el copiado y pegado](adjuntos/imagen8.png)
+   ![Usar el copiado y pegado](adjuntos/imagen8.png)
 
 >Recuerda que si quieres usar la contraseña en tu sistema principal, se obtiene a través del método
 
-```Java
-generatePassword.setExternalTextField(elemento_recibe);
-```
+   ```Java
+   generatePassword.setExternalTextField(elemento_recibe);
+   ```
 Con esto puedes usar las contraseñas directamente en tu aplicación principal o sistema.
 
 ![Usar en el sistema principal](adjuntos/imagen9.png)
 
-Por ejemplo en el programa anterior en el `actionPerformad`del botón se agregó lo siguiente
+Por ejemplo en el programa anterior en el `actionPerformad`del botón se agregó lo siguiente:
 
 ```Java
 generatePassword1.setExternalTextField(txtDContrasena);
 ```
-
 Que quiere decir *"lo que generó el componente `generatePassword` copialo en el componente `txtDContrasena`"*.
 
 ## Funcionamiento
