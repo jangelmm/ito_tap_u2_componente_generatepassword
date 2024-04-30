@@ -128,6 +128,31 @@ Que quiere decir *"lo que generó el componente `generatePassword` copialo en el
 
 Haz clic para ver el video ahora mismo ---> https://youtu.be/Wa5mAOkL6vs.
 
+## Manejo de error común
+
+Abordaremos los problemas de incompatibilidad de versiones que pueden surgir al desarrollar y ejecutar el programa en Java en diferentes entornos, como al intentar ejecutar el programa creado en un entorno de desarrollo, como NetBeans, en otra versión de este mismo entorno o en otra computadora.
+
+![Screenshot1](https://github.com/JesusAngelMM/ITO_TAP_U2_COMPONENTE_GENERATEPASSWORD/assets/167843278/fdfa85bb-5e3c-4fcc-a2da-189dc2e2d657)
+
+Pasos a seguir:
+
+1. En el proyecto selecionamos la opcion *Resolve Project Problems* en donde se describe el problema y seleccionamos *Resolve...*
+   
+   ![Screenshot2](https://github.com/JesusAngelMM/ITO_TAP_U2_COMPONENTE_GENERATEPASSWORD/assets/167843278/baee7e88-26f0-4669-85fe-79a360debc69)
+
+2. Posteriormente seleccionamos (dependiendo el caso nos mostrará alguna de estas opciones):
+   - *Downgrade Project Source...*: Esta opción te permite ajustar el proyecto para que sea compatible con versiones anteriores del entorno de desarrollo o ejecución de Java. 
+   - *Upgrade Project Source...*: Esta opción te permite actualizar el proyecto para que sea compatible con versiones más recientes del entorno de desarrollo o ejecución de Java.
+         
+   ![Screenshot3](https://github.com/JesusAngelMM/ITO_TAP_U2_COMPONENTE_GENERATEPASSWORD/assets/167843278/d4456a68-a347-4437-ab32-d5dd040205ea)
+   
+4. Con esto habremos resuelto los problemas de incompatibilidad con las versiones de Java, por último cerramos la ventana.
+   
+   ![Screenshot4](https://github.com/JesusAngelMM/ITO_TAP_U2_COMPONENTE_GENERATEPASSWORD/assets/167843278/a4c634e6-3d92-4b56-84dd-0207208e857d)
+
+Generalmente, esto no debería ser un problema, ya que NetBeans intentará convertir automáticamente el proyecto al formato compatible con la versión que estás utilizando. Sin embargo, es posible que algunas configuraciones específicas del proyecto necesiten ser ajustadas manualmente después de la conversión.
+Posterior a resolver este inconveniente podemos generar nuestro archivo `.jar`
+
 ## Contribuir
 Si deseas contribuir a este proyecto, por favor sigue los siguientes pasos:
 
